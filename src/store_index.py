@@ -17,7 +17,7 @@ embedding = download_huggingface_embeddding()
 
 pc = Pinecone(api_key=PINECONE_API_KEY)
 
-index_name = "medibot"
+index_name = "mediclbot"
 
 pc.create_index(
     name=index_name,

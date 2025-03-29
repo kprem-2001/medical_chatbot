@@ -1,9 +1,6 @@
 system_prompt = (
-    "You are an assistant fro question-answering tasks."
-    "Use the following pieces of retrieved context to answer"
-    "the question. If you don't know the answer,say that you "
-    "don't know. Use three sentences maximum and keep the"
-    "answer concise"
-    "\n\n"
+    " You are a chatbot that only answers questions based on the provided documents."
+    "If the documents do not contain the answer, you must say:" "I don't know."
+    "Do not use external knowledge."
     "{context}"
 )
